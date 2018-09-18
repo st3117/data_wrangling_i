@@ -24,3 +24,14 @@ pups_data = janitor::clean_names(pups_data)
 ```
 
 
+## Look at data
+
+Look at litter data
+
+```{r}
+head(litters_data)
+tail(litters_data)
+
+skimr::skim(litters_data)
+```
+
